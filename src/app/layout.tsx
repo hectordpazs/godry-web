@@ -12,7 +12,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GoDry",
-  description: "Plataforma digital de transporte creada para conectar a conductores y pasajeros que comparten rutas similares",
+  description:
+    "Plataforma digital de transporte creada para conectar a conductores y pasajeros que comparten rutas similares",
+  icons: {
+    icon: "/public/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
