@@ -15,7 +15,7 @@ export const Cta = () => {
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
-            href="/"
+            href="https://play.google.com/store/apps/details?id=app.godry.driver "
             target="_blank"
             rel="noopener"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-[#91CA41] bg-white rounded-md px-7 lg:px-10 lg:py-5 "
