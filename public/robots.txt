@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://web.godry.app
+
+# Sitemaps
+Sitemap: https://web.godry.app/sitemap.xml
