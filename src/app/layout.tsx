@@ -4,19 +4,30 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import { PopupWidget }  from "@/components/PopupWidget";
 
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GoDry",
-  description:
-    "Plataforma digital de transporte creada para conectar a conductores y pasajeros que comparten rutas similares",
+  title: "GoDry | Plataforma de transporte compartido",
+  description: "GoDry conecta conductores y pasajeros con rutas similares, ofreciendo una solución digital para transporte eficiente y seguro.",
   icons: {
-    icon: "/public/favicon.ico",
+    icon: "/favicon.ico",
     shortcut: "/favicon.ico",
+  },
+  keywords: "transporte compartido, conductores, pasajeros, rutas similares, GoDry",
+  robots: "index, follow",
+  openGraph: {
+    title: "GoDry | Plataforma de transporte compartido",
+    description: "Conecta conductores y pasajeros con rutas similares. ¡Únete a GoDry!",
+    type: "website",
+    url: "https://web.godry.app",
+    images: [
+      {
+        url: "/public/img/1.png",
+        alt: "Logo de GoDry",
+      },
+    ],
   },
 };
 
